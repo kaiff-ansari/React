@@ -1,0 +1,85 @@
+/* Marvel Avengers Style Form */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(circle at top, #1f1f1f, #000000);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: #e62429; /* Marvel red */
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #e62429;
+}
+
+form {
+  background: #121212;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(230, 36, 41, 0.7);
+  width: 100%;
+  max-width: 420px;
+  border: 2px solid #e62429;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #ccc;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #444;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #e62429;
+}
+
+p {
+  color: #ff5555;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #e62429;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 15px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #e62429;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #ff0000;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.98);
+}

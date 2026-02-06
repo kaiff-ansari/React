@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+body {
+  background-color: azure;
+}
+
+
+
+h1 {
+  color: blue;
+}
+
+button {
+
+  margin: 2px solid black;
+  color: blueviolet;
+  background-color: blanchedalmond;
+}
+
+p {
+  background-color: brown;
+}
+
+
+h2 {
+  color: brown;
+}
