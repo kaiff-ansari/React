@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
+  border: 1px solid black;
+
+}
+
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.18);
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 30%;
+  object-fit: cover;
+  border: 3px solid #4f46e5;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.center h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.center h5 {
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+  background-color: rgb(76, 76, 218);
+
+}
+
+.bottom h5 {
+  font-size: 14px;
+  color: #374151;
+  margin: 6px 0;
+}
+
+.info {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #6b7280;
+  margin: 6px 0;
+}
+
+.info svg {
+  color: #9ca3af;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
