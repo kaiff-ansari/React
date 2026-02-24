@@ -47,11 +47,18 @@ html, body{
 .parent{
   height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  
+ 
   background-color: antiquewhite;
 }
 
+.nav{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+ justify-content: center;
+  align-items: center;
+}
 .btn{
 
   width: 80px;
